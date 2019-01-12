@@ -36,6 +36,6 @@ Predict the CTR through all data(about 150 million), the auc of test set(about 2
 
 ##### more details: see the documents in directory "doc"
 
-####Model
+#### Model
 Modified the deepfm which is implemented by Weichen Shen,wcshen1994@163.com in DeepCTR
 ##### more details: see the contents in directory "deepctr"
