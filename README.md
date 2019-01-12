@@ -1,6 +1,7 @@
 # The Data Mining Project
 ## PREDICT THE CLICK-THROUGH RATE(CTR) OF ADS GIVEN THE QUERY AND USER INFORMATION
 #### Data: KDD CUP 2012 Track2
+Predict the CTR through all data(about 150 million), the auc of test set(about 20 million) is 0.7874.
 
 # Running Steps
 
