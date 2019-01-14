@@ -39,3 +39,9 @@ Predict the CTR through all data(about 150 million), the auc of test set(about 2
 #### Model
 Modified the deepfm which is implemented by Weichen Shen,wcshen1994@163.com in DeepCTR
 ##### more details: see the contents in directory "deepctr"
+
+#### Try
+(1) The words in tokens with tf less than other 75% words are thrown away: did not improve the auc.
+(2) The cold start of item in test data is set to the mean of all records in training data: a small improvement in auc.
+(3) The value of dense feature with large number is being log() before being normalized to one: did not improve the auc.
+(4) The way that may be improve auc is: make the feature selection a little more detailed.
